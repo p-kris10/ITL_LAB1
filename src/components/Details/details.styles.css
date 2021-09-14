@@ -1,0 +1,45 @@
+.bg-color{
+    height: 600px;
+    background: rgb(0,36,36);
+    background: linear-gradient(133deg, rgba(0,36,36,0.23252095027464115) 0%, rgba(97,9,121,0.9580111463530725) 46%, rgba(255,159,0,1) 100%);
+    justify-content: center;
+    align-content: center;
+}
+.bgedit{
+    
+    width: 80vw;
+    margin: auto;
+    max-height: 50px;
+}
+.det-container{
+    width: 100vw;
+    background: var(--gradient-color);
+}
+.details{
+    
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: x-large;
+    max-width: 80vw;
+    margin:auto;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.cost{
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 70px;
+    font-size: xx-large;
+    padding:30px;
+    width: 400px;
+    color: white;
+    background: rgb(61,220,17);
+    background: linear-gradient(133deg, rgba(61,220,17,0.23252095027464115) 0%, rgba(34,62,160,0.9580111463530725) 46%, rgba(0,223,255,1) 100%);
+}
+
+.cost:hover{
+    background: rgb(32,138,3);
+background: linear-gradient(133deg, rgba(32,138,3,1) 25%, rgba(34,62,160,0.9580111463530725) 68%, rgba(0,223,255,1) 95%);
+}

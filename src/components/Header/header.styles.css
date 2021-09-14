@@ -1,0 +1,25 @@
+.link-container
+{
+    width: 100%;
+    justify-content: space-between; 
+}
+.bg-purple {
+    --bs-bg-opacity: 1;
+    background-color: var(--purple-solid)!important;
+}
+
+.navbar-collapse{
+    justify-content: space-between;
+}
+
+.nav-link{
+    border: solid var(--purple-solid) 2px;
+    border-radius: 50px;
+    width:150px;
+    background: var(--purple-transparent);
+    
+}
+.nav-link:hover {
+    background: var(--gradient-color);
+    
+}

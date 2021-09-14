@@ -1,0 +1,25 @@
+.sep{
+    height: 30px;
+    width: 100vw;
+    background: var(--gradient-color);
+}
+
+
+.headline{
+    font-size: 64px;
+    margin-top: 50px !important;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.subtext{
+    font-size: 40px;
+    font-style: italic;
+    color: #929191;
+    line-height: 1.336;
+    margin-bottom: 50px !important;
+   
+}
+
+.cards{
+    background: var(--gradient-color);
+}
