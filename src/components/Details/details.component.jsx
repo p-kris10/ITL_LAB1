@@ -65,10 +65,10 @@ const Details = () => {
         </div>
         <Container>
             <Row>
-            <Col><div className='cost'>$100/night</div></Col>
-            <Col><div className='cost'>Gym</div></Col>
-            <Col><div className='cost'>Free Wifi</div></Col>
-            <Col><div className='cost'>5 star</div></Col>
+            <Col><div className='cost'><span className="center">$100/night</span></div></Col>
+            <Col><div className='cost'><span className="center">Free Wifi</span></div></Col>
+            <Col><div className='cost'><span className="center">Gym</span></div></Col>
+            <Col><div className='cost'><span className="center">5 star</span></div></Col>
             </Row>
         </Container>
            

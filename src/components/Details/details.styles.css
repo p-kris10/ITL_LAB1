@@ -28,18 +28,30 @@
 }
 
 .cost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     margin-top: 12px;
-    border-radius: 70px;
-    font-size: xx-large;
-    padding:30px;
-    width: 400px;
+    border-radius: 50%;
+    font-size: large;
+    padding:20px;
+    width: 200px;
+    height: 200px;
+    margin-top: 50%;
+    align-items: center;
+    justify-content: center;
     color: white;
     background: rgb(61,220,17);
     background: linear-gradient(133deg, rgba(61,220,17,0.23252095027464115) 0%, rgba(34,62,160,0.9580111463530725) 46%, rgba(0,223,255,1) 100%);
+    margin-bottom: 50px;
 }
 
 .cost:hover{
     background: rgb(32,138,3);
-background: linear-gradient(133deg, rgba(32,138,3,1) 25%, rgba(34,62,160,0.9580111463530725) 68%, rgba(0,223,255,1) 95%);
+background: linear-gradient(133deg, rgba(112,2,201,1) 25%, rgba(34,62,160,0.9580111463530725) 68%, rgba(0,223,255,1) 95%);
+}
+
+.center{
+   top:50%;
 }
