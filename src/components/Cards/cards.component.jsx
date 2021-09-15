@@ -5,7 +5,7 @@ const Card = (data) => {
     const {src,title,desc} = data.data;
     return ( 
         
-            <div className='card' onClick={() => history.push('/details')}>
+            <div className='card' onClick={() => history.push('/ITL_LAB1/details')}>
             <img src={src} alt="" />
             <div className="card-info">
                 <h2>{title}</h2>

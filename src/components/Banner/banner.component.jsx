@@ -13,7 +13,7 @@ const Banner = () => {
                    Experience Hospitality like never before
                 </div>
             </div>
-                <Button  onClick={() => history.push('/trending')} variant='outlined'>Explore Nearby Hotels</Button>
+                <Button  onClick={() => history.push('/ITL_LAB1/trending')} variant='outlined'>Explore Nearby Hotels</Button>
             </div>
     </div>
      );

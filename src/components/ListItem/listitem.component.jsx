@@ -6,7 +6,7 @@ const Item = (props) => {
     const history = useHistory();
      const {src,location,title,desc,star,price} = props.props
     return (
-        <div className='searchResult' onClick={() => history.push('/details')}>
+        <div className='searchResult' onClick={() => history.push('/ITL_LAB1/details')}>
             <img src={src} alt="" />
             <FavoriteBorderIcon className="searchResult__heart" />
 
