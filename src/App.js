@@ -5,6 +5,7 @@ import Header from './components/Header/header.component';
 import { Switch,Route,Redirect } from 'react-router-dom';
 import Details from './components/Details/details.component';
 import Trending from './components/Trending/trending.component';
+import Footer from './components/Footer/footer.component';
 function App() {
   return (
     <div className="App">
@@ -15,7 +16,7 @@ function App() {
       <Route exact path='/ITL_LAB1/trending' component={Trending} />
       <Route exact path='/ITL_LAB1/details' component={Details} />
     </Switch>
-      
+    <Footer/>
       
     </div>
   );
