@@ -1,0 +1,30 @@
+.about-container
+{
+    display: flex;
+    flex-direction: column;
+}
+.parallax {
+ 
+    background-image: url("../../images/bg.jpg");
+  
+   /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info-about{
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1.336;
+    background: var(--gradient-color);
+    padding-right: 25vw;
+    padding-left: 25vw;
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
